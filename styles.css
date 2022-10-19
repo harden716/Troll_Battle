@@ -1,0 +1,61 @@
+/* Battle Game Project 10/17/22 */
+
+/* 
+font-family: 'Dela Gothic One', cursive;
+font-family: 'Eater', cursive;
+font-family: 'Freckle Face', cursive;
+font-family: 'Gloria Hallelujah', cursive;
+*/
+
+body {
+	background-image: url("forrest.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+h1 {
+	font-family: 'Eater', cursive;
+	font-size: 4.5em;
+	text-align: center;
+	color: seashell;
+	text-shadow: darkred 3px 3px 2px, black 6px 6px 3px;
+}
+
+div#start {
+	background-color: darkred;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 2.2em;
+	color: seashell;
+	border-radius: 30px;
+	opacity: 0.8;
+	transition: all 1.5s;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+div#start:hover {
+	background-color: yellow;
+	color: black;
+	cursor: pointer;
+}
+
+h2#result {
+	font-family: 'Dela Gothic One', cursive;
+	text-align: center;
+	font-size: 2.5em;
+	color: greenyellow;
+	text-shadow: black 3px 3px 1px;
+}
+
+h2#death {
+	font-family: 'Freckle Face', cursive;
+	text-align: center;
+	font-size: 2.5em;
+	color: red;
+	text-shadow: white 2px 2px 1px, black 4px 4px 1px;	
+}
+
